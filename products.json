@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Корм для котів Grain Free",
+        "price": 250,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/386262335.jpg",
+        "category": "Коти"
+    },
+    {
+        "name": "Корм для котів з куркою",
+        "price": 220,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/386262335.jpg",
+        "category": "Коти"
+    },
+    {
+        "name": "Корм для собак Lamb",
+        "price": 300,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/372082203.jpg",
+        "category": "Собаки"
+    },
+    {
+        "name": "Корм для собак з яловичиною",
+        "price": 320,
+        "image": "https://content2.rozetka.com.ua/goods/images/big/372082203.jpg",
+    
+        "category": "Собаки"
+    },
+    {
+        "name": "Корм для птахів Exotic",
+        "price": 150,
+        "image": "https://content1.rozetka.com.ua/goods/images/big/10672775.jpg",
+        "category": "Птахи"
+    },
+    {
+        "name": "Суміш для папуг Tropical Mix",
+        "price": 170,
+        "image": "https://content1.rozetka.com.ua/goods/images/big/10672775.jpg",
+        
+        "category": "Птахи"
+    }
+]
