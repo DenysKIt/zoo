@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зоомагазин "Лапка"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Зоомагазин "Лапка REX "</h1>
+        <button onclick="toggleCart()">🛒 Кошик (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <section class="categories">
+        <h2>Види кормів</h2>
+        <ul>
+            <li>Корм для котів</li>
+            <li>Корм для собак</li>
+            <li>Корм для птахів</li>
+        </ul>
+    </section>
+
+    <section class="products">
+        <h2>Наші товари</h2>
+        <div class="product" data-name="Корм для котів" data-price="200">
+            <h3>Корм для котів</h3>
+            <p>Ціна: 200 грн</p>
+            <button onclick="addToCart('Корм для котів', 200)">Додати в кошик</button>
+        </div>
+        <div class="product" data-name="Корм для собак" data-price="300">
+            <h3>Корм для собак</h3>
+            <p>Ціна: 300 грн</p>
+            <button onclick="addToCart('Корм для собак', 300)">Додати в кошик</button>
+        </div>
+        <div class="product" data-name="Корм для собак" data-price="300">
+            <h3>Корм для птахів</h3>
+            <p>Ціна: 150 грн</p>
+            <button onclick="addToCart('Корм для птахів', 150)">Додати в кошик</button>
+        </div>
+    </section>
+
+    <section class="cart" id="cart">
+        <h2>Ваш кошик</h2>
+        <ul id="cart-items"></ul>
+    </section>
+
+    <footer>
+        <h3>Про магазин</h3>
+        <p>Ми продаємо найкращі корми.</p>
+        <h4>Засновник</h4>
+        <p>Кітраль Денис , зоолюбитель з 0-річним досвідом.</p>
+        <p>Магазин фейк.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
